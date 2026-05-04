@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 
 const BlurCircle = ({
   top = "auto",
@@ -15,3 +15,4 @@ const BlurCircle = ({
 };
 
 export default BlurCircle;
+

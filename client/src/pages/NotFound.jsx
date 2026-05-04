@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { useNavigate } from "react-router-dom";
 import BlurCircle from "../components/BlurCircle";
 
@@ -8,7 +8,7 @@ const NotFound = () => {
   return (
     <div className="relative h-screen flex flex-col items-center justify-center text-center px-4 overflow-hidden">
 
-      {/* 🔥 Background Blur */}
+      {/* ðŸ”¥ Background Blur */}
       <BlurCircle top="0" right="0" />
       <BlurCircle bottom="0" left="0" />
 
@@ -29,7 +29,7 @@ const NotFound = () => {
       </p>
 
       <p className="text-gray-500 text-sm mt-2 max-w-md">
-        The page you are looking for doesn’t exist or has been moved.
+        The page you are looking for doesnâ€™t exist or has been moved.
       </p>
 
       {/* Button */}
@@ -45,3 +45,4 @@ const NotFound = () => {
 };
 
 export default NotFound;
+

@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from "react";
+﻿import React, { useEffect, useMemo, useState } from "react";
 import { useParams } from "react-router-dom";
 import { useUser } from "@clerk/react";
 import { ArrowRight } from "lucide-react";
@@ -91,7 +91,7 @@ const SeatLayout = () => {
                 onClick={() => setSelectedTime(slot.showId)}
                 className={`px-4 py-2 rounded-md text-sm flex items-center gap-2 transition ${selectedTime === slot.showId ? "bg-primary text-white shadow-md" : "bg-black/40 text-gray-300 hover:bg-primary/20"}`}
               >
-                {slot.time} � Rs. {slot.showPrice}
+                {slot.time} ï¿½ Rs. {slot.showPrice}
               </button>
             ))}
           </div>
@@ -147,4 +147,7 @@ const SeatLayout = () => {
 };
 
 export default SeatLayout;
+
+
+
 

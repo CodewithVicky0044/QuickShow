@@ -1,4 +1,4 @@
-export const movies = [
+﻿export const movies = [
   {
     _id: "324544",
     title: "In the Lost Lands",
@@ -77,4 +77,6 @@ export const makeDates = (count = 6) => {
     return d.toISOString().slice(0, 10);
   });
 };
+
+
 

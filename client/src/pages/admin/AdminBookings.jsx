@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+﻿import React, { useEffect, useState } from "react";
 import { api } from "../../lib/api";
 
 const AdminBookings = () => {
@@ -40,3 +40,5 @@ const AdminBookings = () => {
 };
 
 export default AdminBookings;
+
+

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+﻿import React, { useEffect, useState } from "react";
 import MovieCard from "../components/MovieCard";
 import BlurCircle from "../components/BlurCircle";
 import { api } from "../lib/api";
@@ -27,3 +27,5 @@ const Movies = () => {
 };
 
 export default Movies;
+
+

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+﻿import React, { useState } from "react";
 import ReactPlayer from "react-player/youtube";
 import { dummyTrailers } from "../assets/assets";
 import { Play } from "lucide-react";
@@ -11,7 +11,7 @@ const TrailersSection = () => {
   return (
     <div className="px-6 md:px-16 lg:px-24 xl:px-44 py-20 relative overflow-hidden">
       
-      {/* 🔥 Background Blur */}
+      {/* ðŸ”¥ Background Blur */}
       <BlurCircle top="-100px" right="-120px" />
       <BlurCircle bottom="-100px" left="-120px" />
 
@@ -20,10 +20,10 @@ const TrailersSection = () => {
         Trailers
       </p>
 
-      {/* 🎬 VIDEO WRAPPER */}
+      {/* ðŸŽ¬ VIDEO WRAPPER */}
       <div className="relative z-10 w-full aspect-video rounded-2xl overflow-hidden shadow-[0_0_100px_rgba(248,69,101,0.15)]">
 
-        {/* 🔥 IMPORTANT FIX */}
+        {/* ðŸ”¥ IMPORTANT FIX */}
         <ReactPlayer
           url={currentTrailer.videoUrl}
           playing={playing}
@@ -33,7 +33,7 @@ const TrailersSection = () => {
           className="absolute top-0 left-0"
         />
 
-        {/* ▶ Overlay */}
+        {/* â–¶ Overlay */}
         {!playing && (
           <div
             onClick={() => setPlaying(true)}
@@ -46,7 +46,7 @@ const TrailersSection = () => {
         )}
       </div>
 
-      {/* 🎞️ THUMBNAILS */}
+      {/* ðŸŽžï¸ THUMBNAILS */}
       <div className="flex justify-center gap-5 mt-8 flex-wrap relative z-10">
         {dummyTrailers.map((trailer, index) => (
           <div
@@ -79,3 +79,4 @@ const TrailersSection = () => {
 };
 
 export default TrailersSection;
+

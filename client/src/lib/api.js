@@ -1,4 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:4000";
+﻿const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:4000";
 const ADMIN_KEY = import.meta.env.VITE_ADMIN_KEY || "quickshow-admin";
 
 async function request(path, options = {}) {
@@ -41,3 +41,5 @@ export const api = {
 
   getAdminBookings: () => adminRequest("/api/admin/bookings")
 };
+
+

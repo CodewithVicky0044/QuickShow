@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { assets } from "../assets/assets";
 import { ArrowRight, CalendarIcon, ClockIcon } from "lucide-react";
 import { useNavigate } from "react-router-dom";
@@ -45,4 +45,6 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
+
 

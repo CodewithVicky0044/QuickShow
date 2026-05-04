@@ -1,4 +1,4 @@
-import express from "express";
+﻿import express from "express";
 import cors from "cors";
 import { store } from "./store.js";
 
@@ -100,3 +100,5 @@ app.get("/api/admin/bookings", adminOnly, (_req, res) => res.json(store.getAllBo
 app.listen(PORT, () => {
   console.log(`QuickShow server running on http://localhost:${PORT}`);
 });
+
+

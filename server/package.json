@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "quickshow-server",
   "version": "1.0.0",
   "type": "module",
@@ -12,3 +12,4 @@
     "express": "^4.21.2"
   }
 }
+

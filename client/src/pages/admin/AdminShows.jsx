@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+ï»¿import React, { useEffect, useState } from "react";
 import toast from "react-hot-toast";
 import { api } from "../../lib/api";
 
@@ -52,7 +52,7 @@ const AdminShows = () => {
         <div className="space-y-3 max-h-[560px] overflow-auto pr-1">
           {shows.map((show) => (
             <div key={show.showId} className="flex items-center justify-between bg-black/30 p-2 rounded">
-              <p className="text-sm">{show.movieId} • {show.date} • {show.time} • Rs.{show.showPrice}</p>
+              <p className="text-sm">{show.movieId} â€¢ {show.date} â€¢ {show.time} â€¢ Rs.{show.showPrice}</p>
               <button onClick={() => removeShow(show.showId)} className="text-xs bg-red-500/80 px-2 py-1 rounded">Delete</button>
             </div>
           ))}
@@ -63,3 +63,5 @@ const AdminShows = () => {
 };
 
 export default AdminShows;
+
+

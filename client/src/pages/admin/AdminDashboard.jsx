@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+﻿import React, { useEffect, useState } from "react";
 import { api } from "../../lib/api";
 
 const AdminDashboard = () => {
@@ -34,7 +34,7 @@ const AdminDashboard = () => {
         {data.activeShows.map((show) => (
           <div key={show.showId} className="bg-white/5 rounded-xl p-4 border border-white/10">
             <p className="font-medium">{show.movie?.title}</p>
-            <p className="text-sm text-gray-400 mt-1">{show.date} � {show.time}</p>
+            <p className="text-sm text-gray-400 mt-1">{show.date} • {show.time}</p>
             <p className="text-sm text-primary mt-1">Rs. {show.showPrice}</p>
             <p className="text-sm text-gray-300 mt-1">Occupied: {show.occupiedCount}</p>
           </div>
@@ -45,3 +45,5 @@ const AdminDashboard = () => {
 };
 
 export default AdminDashboard;
+
+

@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { assets } from "../assets/assets";
 
 const Footer = () => {
@@ -49,7 +49,7 @@ const Footer = () => {
 
       {/* DIVIDER */}
       <div className="border-t border-gray-800 mt-10 pt-6 text-center text-sm text-gray-500">
-        Copyright 2024 © Company name. All Right Reserved.
+        Copyright 2024 Â© Company name. All Right Reserved.
       </div>
 
     </div>
@@ -57,3 +57,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

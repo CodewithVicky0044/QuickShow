@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+﻿import React, { useEffect, useState } from "react";
 import { useUser } from "@clerk/react";
 import MovieCard from "../components/MovieCard";
 import BlurCircle from "../components/BlurCircle";
@@ -34,3 +34,5 @@ const Favorite = () => {
 };
 
 export default Favorite;
+
+

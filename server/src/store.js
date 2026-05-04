@@ -1,4 +1,4 @@
-import { movies, makeDates, timeSlots } from "./data.js";
+﻿import { movies, makeDates, timeSlots } from "./data.js";
 
 const showPrice = 249;
 
@@ -159,3 +159,5 @@ export const store = {
     return movies.filter((m) => ids.includes(m._id));
   }
 };
+
+

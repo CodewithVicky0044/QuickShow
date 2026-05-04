@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+﻿import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { assets } from "../assets/assets";
 import { LayoutDashboard, MenuIcon, SearchIcon, TicketPlus, XIcon } from "lucide-react";
@@ -45,3 +45,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+

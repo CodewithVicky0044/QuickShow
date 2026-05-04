@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useRef, useState } from "react";
+﻿import React, { useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { Heart, PlayCircle, Star } from "lucide-react";
 import { useUser } from "@clerk/react";
@@ -61,7 +61,7 @@ const MovieDetails = () => {
           <p className="text-gray-400 text-sm max-w-md mx-auto md:mx-0">{movie.overview}</p>
 
           <p className="text-gray-300 text-xs sm:text-sm">
-            {Math.floor(movie.runtime / 60)}h {movie.runtime % 60}m � {movie.genres.map((g) => g.name).join(" | ")}
+            {Math.floor(movie.runtime / 60)}h {movie.runtime % 60}m • {movie.genres.map((g) => g.name).join(" | ")}
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 mt-4 w-full">
@@ -123,3 +123,5 @@ const MovieDetails = () => {
 };
 
 export default MovieDetails;
+
+

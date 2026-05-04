@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+﻿import React, { useEffect, useState } from "react";
 import { useUser } from "@clerk/react";
 import BlurCircle from "../components/BlurCircle";
 import { api } from "../lib/api";
@@ -32,7 +32,7 @@ const MyBooking = () => {
               <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-3">
                 <div>
                   <h3 className="text-lg font-semibold">{item.movie.title}</h3>
-                  <p className="text-sm text-gray-300 mt-3">{item.show.date} � {item.show.time}</p>
+                  <p className="text-sm text-gray-300 mt-3">{item.show.date} • {item.show.time}</p>
                 </div>
                 <p className="text-xl font-semibold text-primary">Rs. {item.amount}</p>
               </div>
@@ -50,3 +50,5 @@ const MyBooking = () => {
 };
 
 export default MyBooking;
+
+
