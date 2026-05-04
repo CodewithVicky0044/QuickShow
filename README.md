@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿# QuickShow
+=======
+# QuickShow
+>>>>>>> 489539b68d47ffa5e58a4ff48ac59ed4d55c9cf6
 
 QuickShow is a movie ticket booking platform built with **React (Vite)** frontend and **Node.js + Express** backend.
 
@@ -69,7 +73,10 @@ Create `client/.env`:
 
 ```env
 VITE_API_BASE_URL=http://localhost:4000
+<<<<<<< HEAD
 VITE_ADMIN_KEY=quickshow-admin
+=======
+>>>>>>> 489539b68d47ffa5e58a4ff48ac59ed4d55c9cf6
 VITE_ADMIN_EMAILS=your-email@example.com
 ```
 
@@ -87,7 +94,10 @@ Create `server/.env` (optional but recommended):
 
 ```env
 PORT=4000
+<<<<<<< HEAD
 ADMIN_KEY=quickshow-admin
+=======
+>>>>>>> 489539b68d47ffa5e58a4ff48ac59ed4d55c9cf6
 ```
 
 ## Admin Access
@@ -136,7 +146,10 @@ Admin access conditions:
 - Output directory: `dist`
 - Env vars:
   - `VITE_API_BASE_URL=https://your-render-service.onrender.com`
+<<<<<<< HEAD
   - `VITE_ADMIN_KEY=quickshow-admin`
+=======
+>>>>>>> 489539b68d47ffa5e58a4ff48ac59ed4d55c9cf6
   - `VITE_ADMIN_EMAILS=your-email@example.com`
 
 ### Backend on Render
@@ -145,7 +158,10 @@ Admin access conditions:
 - Build command: `npm install`
 - Start command: `npm start`
 - Env vars:
+<<<<<<< HEAD
   - `ADMIN_KEY=quickshow-admin`
+=======
+>>>>>>> 489539b68d47ffa5e58a4ff48ac59ed4d55c9cf6
   - `PORT=4000`
 
 ## Known Limitations
@@ -164,4 +180,7 @@ Admin access conditions:
 ---
 
 If you use this project as a portfolio demo, mention clearly that it is a learning-focused architecture with runtime in-memory storage.
+<<<<<<< HEAD
 
+=======
+>>>>>>> 489539b68d47ffa5e58a4ff48ac59ed4d55c9cf6
