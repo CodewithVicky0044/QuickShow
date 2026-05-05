@@ -74,7 +74,6 @@ Create `client/.env`:
 ```env
 VITE_API_BASE_URL=http://localhost:4000
 <<<<<<< HEAD
-VITE_ADMIN_KEY=quickshow-admin
 =======
 >>>>>>> 489539b68d47ffa5e58a4ff48ac59ed4d55c9cf6
 VITE_ADMIN_EMAILS=your-email@example.com
@@ -95,7 +94,6 @@ Create `server/.env` (optional but recommended):
 ```env
 PORT=4000
 <<<<<<< HEAD
-ADMIN_KEY=quickshow-admin
 =======
 >>>>>>> 489539b68d47ffa5e58a4ff48ac59ed4d55c9cf6
 ```
@@ -147,7 +145,6 @@ Admin access conditions:
 - Env vars:
   - `VITE_API_BASE_URL=https://your-render-service.onrender.com`
 <<<<<<< HEAD
-  - `VITE_ADMIN_KEY=quickshow-admin`
 =======
 >>>>>>> 489539b68d47ffa5e58a4ff48ac59ed4d55c9cf6
   - `VITE_ADMIN_EMAILS=your-email@example.com`
@@ -158,8 +155,6 @@ Admin access conditions:
 - Build command: `npm install`
 - Start command: `npm start`
 - Env vars:
-<<<<<<< HEAD
-  - `ADMIN_KEY=quickshow-admin`
 =======
 >>>>>>> 489539b68d47ffa5e58a4ff48ac59ed4d55c9cf6
   - `PORT=4000`
