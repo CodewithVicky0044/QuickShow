@@ -1,4 +1,7 @@
-﻿const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:4000";
+const rawBaseUrl = import.meta.env.VITE_API_BASE_URL;
+const isLocalhost = typeof window !== "undefined" && ["localhost", "127.0.0.1"].includes(window.location.hostname);
+const fallbackBaseUrl = isLocalhost ? "http://localhost:4000" : "https://quickshow-gvy0.onrender.com";
+const API_BASE_URL = (rawBaseUrl || fallbackBaseUrl).replace(/\/$/, "");
 const ADMIN_KEY = import.meta.env.VITE_ADMIN_KEY || "quickshow-admin";
 
 async function request(path, options = {}) {
@@ -41,5 +44,3 @@ export const api = {
 
   getAdminBookings: () => adminRequest("/api/admin/bookings")
 };
-
-
